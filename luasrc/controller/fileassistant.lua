@@ -1,11 +1,8 @@
-module("luci.controller.fileassistant", package.seeall)
+module("luci.controller.fileexplorer", package.seeall)
 
 function index()
-
-
-
     local page
-    page = entry({"admin", "services", "fileassistant"}, template("fileassistant"), _("文件助手"), 800)
+    page = entry({"admin", "services", "fileassistant"}, template("fileassistant"), _("File Explorer"), 800)
     page.i18n = "base"
     page.dependent = true
 
