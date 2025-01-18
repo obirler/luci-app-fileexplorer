@@ -1,4 +1,4 @@
-module("luci.controller.fileexplorer", package.seeall)
+module("luci.controller.fileassistant", package.seeall)
 
 function index()
     local page
